@@ -1,0 +1,75 @@
+.estilo1{
+    color:rgba(0, 0, 0, 0.8);
+    font-family: fjalla system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-image: url(imagenes/background0.png);
+    background-size: cover;
+    background-position: center;
+    background-color: #1d1a1a;
+}
+
+table{
+    width: 40%;
+    margin:auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 6px;
+    border-collapse: collapse;
+    overflow: hidden;
+    
+}
+
+th{
+    color:ghostwhite;
+    border: 0.5px solid;
+    font-size: 20px;
+}
+td{
+    color:ghostwhite;
+    border-style: dashed;
+    font-size: 23px;
+}
+.equipo {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+  .equipo img {
+    width: 20px;
+    height: 22px;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  /* Estilos de la barra de navegación */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8);; /* Color de fondo de la barra */
+    overflow: hidden; /* Asegura que los elementos se mantengan dentro de la barra */
+    position:unset;
+    top:0;
+    width: 100%;
+    border-radius: 6px;
+  }
+  
+  /* Estilos de la lista de navegación */
+  .nav-list {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    margin: 12;
+    padding: 0;
+    display: flex; /* Usa flexbox para alinear los elementos horizontalmente */
+    justify-content: left; /* Centra los elementos horizontalmente */
+  }
+  .nav-list a {
+    font-family: fjalla system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: block;
+    color: white; /* Color del texto */
+    text-align: center;
+    padding: 14px 20px; /* Espaciado dentro de los enlaces */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+  }
+  .nav-list a:hover {
+    background-color: #1d1a1a ; /* Color de fondo al pasar el ratón */
+    color: white; /* Color del texto al pasar el ratón */
+  }
