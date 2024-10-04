@@ -1,0 +1,10 @@
+{
+    "equipos": [
+      { "posicion": 1, "nombre": "River Plate", "puntos": 200, "escudo": "imagenes/riverplate.png" },
+      { "posicion": 2, "nombre": "Boca Juniors", "puntos": 198, "escudo": "imagenes/bocajuniors.png" },
+      { "posicion": 3, "nombre": "San Lorenzo", "puntos": 195, "escudo": "imagenes/sanlorenzo.png" },
+      { "posicion": 4, "nombre": "Racing", "puntos": 192, "escudo": "imagenes/racing.png" },
+      { "posicion": 5, "nombre": "Velez Sarfield", "puntos": 186, "escudo": "imagenes/velez.png" }
+    ]
+  }
+  
